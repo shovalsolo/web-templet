@@ -13,8 +13,8 @@ class Header extends Component {
           <Link to="/"><img src={require("../../Assets/img/logo-device.JPG")} /></Link>
         </div>
 
-        <nav>
-          <ul>
+        <nav >
+          <ul className="mob-nav">
             <li className="first">
               <Link to="/">Home</Link>
             </li>

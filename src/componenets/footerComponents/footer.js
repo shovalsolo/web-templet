@@ -7,7 +7,7 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div className="flex flex-jus-spa-aro wcolor">
+        <div className="mob-foot flex flex-jus-spa-aro wcolor">
           <div className="">
             <p className="" >Solo-Tech Design 2017</p>
             <p className="" >Powerd by React</p>
@@ -16,11 +16,11 @@ class Footer extends Component {
             <p className="" >Toronto - Canada</p>
           </div>
 
-          <div className="flex flex-center">
+          <div className="remove flex flex-center">
             <img src={require("../../Assets/img/logo-device-text.JPG")} />
           </div>
 
-          <div className="">
+          <div className="remove">
             <p className="" ><i className="fa fa-facebook" aria-hidden="true"></i> - Facebook</p>
             <p className="" ><i className="fa fa-twitter" aria-hidden="true"></i> - Twitter</p>
             <p className="" ><i className="fa fa-instagram" aria-hidden="true"></i> - Instagram</p>

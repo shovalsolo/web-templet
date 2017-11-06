@@ -9,10 +9,8 @@ import Products from './componenets/pages/products';
 import Contact from './componenets/pages/contact';
 
 
-
 //including the minifyied css
 import './Assets/css/default.min.css';  
-
 
 
 class App extends Component {
@@ -21,11 +19,11 @@ class App extends Component {
       <Router>
         <div className="App">
           <Header/>
-
-          <Route exact path='/' component={HomePage} />
-          <Route exact path='/products' component={Products} />
-          <Route exact path='/contact' component={Contact} />
-
+          <div className="box">
+              <Route exact path='/' component={HomePage} />
+              <Route exact path='/products' component={Products} />
+              <Route exact path='/contact' component={Contact} />
+            </div>
           <Footer/>
         </div>
       </Router>

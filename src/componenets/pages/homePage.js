@@ -14,6 +14,7 @@ class HomePage extends Component {
 
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ea nulla impedit, porro mollitia neque! Itaque officia, nulla voluptatem recusandae minus eligendi ab temporibus similique nisi neque natus consequatur quidem?</p>  
 
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum ea nulla impedit, porro mollitia neque! Itaque officia, nulla voluptatem recusandae minus eligendi ab temporibus similique nisi neque natus consequatur quidem?</p>  
 
       </div>
     );

@@ -12,8 +12,13 @@ body{
 }
 
 .App{
-        background: #FCDFFF;
-    }
+    background: gray-goose;
+}
+
+.box{
+    padding: 0px 15px ;
+    margin: 0px 10px ;
+}
 
 .title{
     line-height: normal;
@@ -23,7 +28,7 @@ header{
     position: relative;
     display: block;
     width: 100%;
-    background: $black;
+    background: $blue-ice;
     color: $white;
     height: 90px;
 
@@ -68,4 +73,8 @@ header{
             text-decoration: none;
         }
     }
+}
+
+footer{
+    background: $blue-ice;
 }

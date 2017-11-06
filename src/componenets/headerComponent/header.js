@@ -10,7 +10,7 @@ class Header extends Component {
       <header>
         
         <div className="logo">
-          <Link to="/">LOGO</Link>
+          <Link to="/"><img src={require("../../Assets/img/logo-device.JPG")} /></Link>
         </div>
 
         <nav>
